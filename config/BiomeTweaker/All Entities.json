@@ -1,0 +1,751 @@
+
+{
+  "Name": "alien_villager",
+  "Registry ID": "galacticraftcore:alien_villager",
+  "Class": "micdoodle8.mods.galacticraft.core.entities.EntityAlienVillager"
+}
+{
+  "Name": "Bat",
+  "Registry ID": "minecraft:bat",
+  "Class": "net.minecraft.entity.passive.EntityBat"
+}
+{
+  "Name": "Blaze",
+  "Registry ID": "minecraft:blaze",
+  "Class": "net.minecraft.entity.monster.EntityBlaze"
+}
+{
+  "Name": "CaveSpider",
+  "Registry ID": "minecraft:cave_spider",
+  "Class": "net.minecraft.entity.monster.EntityCaveSpider"
+}
+{
+  "Name": "Chicken",
+  "Registry ID": "minecraft:chicken",
+  "Class": "net.minecraft.entity.passive.EntityChicken"
+}
+{
+  "Name": "Cow",
+  "Registry ID": "minecraft:cow",
+  "Class": "net.minecraft.entity.passive.EntityCow"
+}
+{
+  "Name": "Creeper",
+  "Registry ID": "minecraft:creeper",
+  "Class": "net.minecraft.entity.monster.EntityCreeper"
+}
+{
+  "Name": "creeper_boss",
+  "Registry ID": "galacticraftplanets:creeper_boss",
+  "Class": "micdoodle8.mods.galacticraft.planets.mars.entities.EntityCreeperBoss"
+}
+{
+  "Name": "Donkey",
+  "Registry ID": "minecraft:donkey",
+  "Class": "net.minecraft.entity.passive.EntityDonkey"
+}
+{
+  "Name": "ElderGuardian",
+  "Registry ID": "minecraft:elder_guardian",
+  "Class": "net.minecraft.entity.monster.EntityElderGuardian"
+}
+{
+  "Name": "EnderDragon",
+  "Registry ID": "minecraft:ender_dragon",
+  "Class": "net.minecraft.entity.boss.EntityDragon"
+}
+{
+  "Name": "Enderman",
+  "Registry ID": "minecraft:enderman",
+  "Class": "net.minecraft.entity.monster.EntityEnderman"
+}
+{
+  "Name": "Endermite",
+  "Registry ID": "minecraft:endermite",
+  "Class": "net.minecraft.entity.monster.EntityEndermite"
+}
+{
+  "Name": "EvocationIllager",
+  "Registry ID": "minecraft:evocation_illager",
+  "Class": "net.minecraft.entity.monster.EntityEvoker"
+}
+{
+  "Name": "evolved_creeper",
+  "Registry ID": "galacticraftcore:evolved_creeper",
+  "Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedCreeper"
+}
+{
+  "Name": "evolved_enderman",
+  "Registry ID": "galacticraftcore:evolved_enderman",
+  "Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedEnderman"
+}
+{
+  "Name": "evolved_skeleton",
+  "Registry ID": "galacticraftcore:evolved_skeleton",
+  "Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedSkeleton"
+}
+{
+  "Name": "evolved_skeleton_boss",
+  "Registry ID": "galacticraftcore:evolved_skeleton_boss",
+  "Class": "micdoodle8.mods.galacticraft.core.entities.EntitySkeletonBoss"
+}
+{
+  "Name": "evolved_spider",
+  "Registry ID": "galacticraftcore:evolved_spider",
+  "Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedSpider"
+}
+{
+  "Name": "evolved_witch",
+  "Registry ID": "galacticraftcore:evolved_witch",
+  "Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedWitch"
+}
+{
+  "Name": "evolved_zombie",
+  "Registry ID": "galacticraftcore:evolved_zombie",
+  "Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedZombie"
+}
+{
+  "Name": "Ghast",
+  "Registry ID": "minecraft:ghast",
+  "Class": "net.minecraft.entity.monster.EntityGhast"
+}
+{
+  "Name": "Giant",
+  "Registry ID": "minecraft:giant",
+  "Class": "net.minecraft.entity.monster.EntityGiantZombie"
+}
+{
+  "Name": "Guardian",
+  "Registry ID": "minecraft:guardian",
+  "Class": "net.minecraft.entity.monster.EntityGuardian"
+}
+{
+  "Name": "Horse",
+  "Registry ID": "minecraft:horse",
+  "Class": "net.minecraft.entity.passive.EntityHorse"
+}
+{
+  "Name": "Husk",
+  "Registry ID": "minecraft:husk",
+  "Class": "net.minecraft.entity.monster.EntityHusk"
+}
+{
+  "Name": "IllusionIllager",
+  "Registry ID": "minecraft:illusion_illager",
+  "Class": "net.minecraft.entity.monster.EntityIllusionIllager"
+}
+{
+  "Name": "juicer",
+  "Registry ID": "galacticraftplanets:juicer",
+  "Class": "micdoodle8.mods.galacticraft.planets.venus.entities.EntityJuicer"
+}
+{
+  "Name": "LavaSlime",
+  "Registry ID": "minecraft:magma_cube",
+  "Class": "net.minecraft.entity.monster.EntityMagmaCube"
+}
+{
+  "Name": "Llama",
+  "Registry ID": "minecraft:llama",
+  "Class": "net.minecraft.entity.passive.EntityLlama"
+}
+{
+  "Name": "mocreatures:anchovy",
+  "Registry ID": "mocreatures:anchovy",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityAnchovy"
+}
+{
+  "Name": "mocreatures:angelfish",
+  "Registry ID": "mocreatures:angelfish",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityAngelFish"
+}
+{
+  "Name": "mocreatures:angler",
+  "Registry ID": "mocreatures:angler",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityAngler"
+}
+{
+  "Name": "mocreatures:ant",
+  "Registry ID": "mocreatures:ant",
+  "Class": "drzhark.mocreatures.entity.ambient.MoCEntityAnt"
+}
+{
+  "Name": "mocreatures:bass",
+  "Registry ID": "mocreatures:bass",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityBass"
+}
+{
+  "Name": "mocreatures:bee",
+  "Registry ID": "mocreatures:bee",
+  "Class": "drzhark.mocreatures.entity.ambient.MoCEntityBee"
+}
+{
+  "Name": "mocreatures:biggolem",
+  "Registry ID": "mocreatures:biggolem",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityGolem"
+}
+{
+  "Name": "mocreatures:bird",
+  "Registry ID": "mocreatures:bird",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityBird"
+}
+{
+  "Name": "mocreatures:blackbear",
+  "Registry ID": "mocreatures:blackbear",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityBlackBear"
+}
+{
+  "Name": "mocreatures:boar",
+  "Registry ID": "mocreatures:boar",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityBoar"
+}
+{
+  "Name": "mocreatures:bunny",
+  "Registry ID": "mocreatures:bunny",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityBunny"
+}
+{
+  "Name": "mocreatures:butterfly",
+  "Registry ID": "mocreatures:butterfly",
+  "Class": "drzhark.mocreatures.entity.ambient.MoCEntityButterfly"
+}
+{
+  "Name": "mocreatures:caveogre",
+  "Registry ID": "mocreatures:caveogre",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityCaveOgre"
+}
+{
+  "Name": "mocreatures:clownfish",
+  "Registry ID": "mocreatures:clownfish",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityClownFish"
+}
+{
+  "Name": "mocreatures:cod",
+  "Registry ID": "mocreatures:cod",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityCod"
+}
+{
+  "Name": "mocreatures:crab",
+  "Registry ID": "mocreatures:crab",
+  "Class": "drzhark.mocreatures.entity.ambient.MoCEntityCrab"
+}
+{
+  "Name": "mocreatures:cricket",
+  "Registry ID": "mocreatures:cricket",
+  "Class": "drzhark.mocreatures.entity.ambient.MoCEntityCricket"
+}
+{
+  "Name": "mocreatures:crocodile",
+  "Registry ID": "mocreatures:crocodile",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityCrocodile"
+}
+{
+  "Name": "mocreatures:deer",
+  "Registry ID": "mocreatures:deer",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityDeer"
+}
+{
+  "Name": "mocreatures:dolphin",
+  "Registry ID": "mocreatures:dolphin",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityDolphin"
+}
+{
+  "Name": "mocreatures:dragonfly",
+  "Registry ID": "mocreatures:dragonfly",
+  "Class": "drzhark.mocreatures.entity.ambient.MoCEntityDragonfly"
+}
+{
+  "Name": "mocreatures:duck",
+  "Registry ID": "mocreatures:duck",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityDuck"
+}
+{
+  "Name": "mocreatures:egg",
+  "Registry ID": "mocreatures:egg",
+  "Class": "drzhark.mocreatures.entity.item.MoCEntityEgg"
+}
+{
+  "Name": "mocreatures:elephant",
+  "Registry ID": "mocreatures:elephant",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityElephant"
+}
+{
+  "Name": "mocreatures:ent",
+  "Registry ID": "mocreatures:ent",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityEnt"
+}
+{
+  "Name": "mocreatures:firefly",
+  "Registry ID": "mocreatures:firefly",
+  "Class": "drzhark.mocreatures.entity.ambient.MoCEntityFirefly"
+}
+{
+  "Name": "mocreatures:fireogre",
+  "Registry ID": "mocreatures:fireogre",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityFireOgre"
+}
+{
+  "Name": "mocreatures:fishy",
+  "Registry ID": "mocreatures:fishy",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityFishy"
+}
+{
+  "Name": "mocreatures:flamewraith",
+  "Registry ID": "mocreatures:flamewraith",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityFlameWraith"
+}
+{
+  "Name": "mocreatures:fly",
+  "Registry ID": "mocreatures:fly",
+  "Class": "drzhark.mocreatures.entity.ambient.MoCEntityFly"
+}
+{
+  "Name": "mocreatures:fox",
+  "Registry ID": "mocreatures:fox",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityFox"
+}
+{
+  "Name": "mocreatures:goat",
+  "Registry ID": "mocreatures:goat",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityGoat"
+}
+{
+  "Name": "mocreatures:goldfish",
+  "Registry ID": "mocreatures:goldfish",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityGoldFish"
+}
+{
+  "Name": "mocreatures:greenogre",
+  "Registry ID": "mocreatures:greenogre",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityGreenOgre"
+}
+{
+  "Name": "mocreatures:grizzlybear",
+  "Registry ID": "mocreatures:grizzlybear",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityGrizzlyBear"
+}
+{
+  "Name": "mocreatures:hellrat",
+  "Registry ID": "mocreatures:hellrat",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityHellRat"
+}
+{
+  "Name": "mocreatures:hippotang",
+  "Registry ID": "mocreatures:hippotang",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityHippoTang"
+}
+{
+  "Name": "mocreatures:horsemob",
+  "Registry ID": "mocreatures:horsemob",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityHorseMob"
+}
+{
+  "Name": "mocreatures:jellyfish",
+  "Registry ID": "mocreatures:jellyfish",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityJellyFish"
+}
+{
+  "Name": "mocreatures:kitty",
+  "Registry ID": "mocreatures:kitty",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityKitty"
+}
+{
+  "Name": "mocreatures:kittybed",
+  "Registry ID": "mocreatures:kittybed",
+  "Class": "drzhark.mocreatures.entity.item.MoCEntityKittyBed"
+}
+{
+  "Name": "mocreatures:komododragon",
+  "Registry ID": "mocreatures:komododragon",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityKomodo"
+}
+{
+  "Name": "mocreatures:leoger",
+  "Registry ID": "mocreatures:leoger",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityLeoger"
+}
+{
+  "Name": "mocreatures:leopard",
+  "Registry ID": "mocreatures:leopard",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityLeopard"
+}
+{
+  "Name": "mocreatures:liard",
+  "Registry ID": "mocreatures:liard",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityLiard"
+}
+{
+  "Name": "mocreatures:liger",
+  "Registry ID": "mocreatures:liger",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityLiger"
+}
+{
+  "Name": "mocreatures:lion",
+  "Registry ID": "mocreatures:lion",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityLion"
+}
+{
+  "Name": "mocreatures:lither",
+  "Registry ID": "mocreatures:lither",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityLither"
+}
+{
+  "Name": "mocreatures:litterbox",
+  "Registry ID": "mocreatures:litterbox",
+  "Class": "drzhark.mocreatures.entity.item.MoCEntityLitterBox"
+}
+{
+  "Name": "mocreatures:maggot",
+  "Registry ID": "mocreatures:maggot",
+  "Class": "drzhark.mocreatures.entity.ambient.MoCEntityMaggot"
+}
+{
+  "Name": "mocreatures:manderin",
+  "Registry ID": "mocreatures:manderin",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityManderin"
+}
+{
+  "Name": "mocreatures:mantaray",
+  "Registry ID": "mocreatures:mantaray",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityMantaRay"
+}
+{
+  "Name": "mocreatures:manticore",
+  "Registry ID": "mocreatures:manticore",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityManticore"
+}
+{
+  "Name": "mocreatures:manticorepet",
+  "Registry ID": "mocreatures:manticorepet",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityManticorePet"
+}
+{
+  "Name": "mocreatures:minigolem",
+  "Registry ID": "mocreatures:minigolem",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityMiniGolem"
+}
+{
+  "Name": "mocreatures:mole",
+  "Registry ID": "mocreatures:mole",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityMole"
+}
+{
+  "Name": "mocreatures:mouse",
+  "Registry ID": "mocreatures:mouse",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityMouse"
+}
+{
+  "Name": "mocreatures:ostrich",
+  "Registry ID": "mocreatures:ostrich",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityOstrich"
+}
+{
+  "Name": "mocreatures:pandabear",
+  "Registry ID": "mocreatures:pandabear",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityPandaBear"
+}
+{
+  "Name": "mocreatures:panthard",
+  "Registry ID": "mocreatures:panthard",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityPanthard"
+}
+{
+  "Name": "mocreatures:panther",
+  "Registry ID": "mocreatures:panther",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityPanther"
+}
+{
+  "Name": "mocreatures:panthger",
+  "Registry ID": "mocreatures:panthger",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityPanthger"
+}
+{
+  "Name": "mocreatures:petscorpion",
+  "Registry ID": "mocreatures:petscorpion",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityPetScorpion"
+}
+{
+  "Name": "mocreatures:piranha",
+  "Registry ID": "mocreatures:piranha",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityPiranha"
+}
+{
+  "Name": "mocreatures:raccoon",
+  "Registry ID": "mocreatures:raccoon",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityRaccoon"
+}
+{
+  "Name": "mocreatures:rat",
+  "Registry ID": "mocreatures:rat",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityRat"
+}
+{
+  "Name": "mocreatures:roach",
+  "Registry ID": "mocreatures:roach",
+  "Class": "drzhark.mocreatures.entity.ambient.MoCEntityRoach"
+}
+{
+  "Name": "mocreatures:salmon",
+  "Registry ID": "mocreatures:salmon",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntitySalmon"
+}
+{
+  "Name": "mocreatures:scorpion",
+  "Registry ID": "mocreatures:scorpion",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityScorpion"
+}
+{
+  "Name": "mocreatures:shark",
+  "Registry ID": "mocreatures:shark",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityShark"
+}
+{
+  "Name": "mocreatures:silverskeleton",
+  "Registry ID": "mocreatures:silverskeleton",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntitySilverSkeleton"
+}
+{
+  "Name": "mocreatures:snail",
+  "Registry ID": "mocreatures:snail",
+  "Class": "drzhark.mocreatures.entity.ambient.MoCEntitySnail"
+}
+{
+  "Name": "mocreatures:snake",
+  "Registry ID": "mocreatures:snake",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntitySnake"
+}
+{
+  "Name": "mocreatures:stingray",
+  "Registry ID": "mocreatures:stingray",
+  "Class": "drzhark.mocreatures.entity.aquatic.MoCEntityStingRay"
+}
+{
+  "Name": "mocreatures:tiger",
+  "Registry ID": "mocreatures:tiger",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityTiger"
+}
+{
+  "Name": "mocreatures:turkey",
+  "Registry ID": "mocreatures:turkey",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityTurkey"
+}
+{
+  "Name": "mocreatures:turtle",
+  "Registry ID": "mocreatures:turtle",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityTurtle"
+}
+{
+  "Name": "mocreatures:werewolf",
+  "Registry ID": "mocreatures:werewolf",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityWerewolf"
+}
+{
+  "Name": "mocreatures:wildhorse",
+  "Registry ID": "mocreatures:wildhorse",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityHorse"
+}
+{
+  "Name": "mocreatures:wildpolarbear",
+  "Registry ID": "mocreatures:wildpolarbear",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityPolarBear"
+}
+{
+  "Name": "mocreatures:wraith",
+  "Registry ID": "mocreatures:wraith",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityWraith"
+}
+{
+  "Name": "mocreatures:wwolf",
+  "Registry ID": "mocreatures:wwolf",
+  "Class": "drzhark.mocreatures.entity.monster.MoCEntityWWolf"
+}
+{
+  "Name": "mocreatures:wyvern",
+  "Registry ID": "mocreatures:wyvern",
+  "Class": "drzhark.mocreatures.entity.passive.MoCEntityWyvern"
+}
+{
+  "Name": "Mule",
+  "Registry ID": "minecraft:mule",
+  "Class": "net.minecraft.entity.passive.EntityMule"
+}
+{
+  "Name": "MushroomCow",
+  "Registry ID": "minecraft:mooshroom",
+  "Class": "net.minecraft.entity.passive.EntityMooshroom"
+}
+{
+  "Name": "Ozelot",
+  "Registry ID": "minecraft:ocelot",
+  "Class": "net.minecraft.entity.passive.EntityOcelot"
+}
+{
+  "Name": "Parrot",
+  "Registry ID": "minecraft:parrot",
+  "Class": "net.minecraft.entity.passive.EntityParrot"
+}
+{
+  "Name": "Pig",
+  "Registry ID": "minecraft:pig",
+  "Class": "net.minecraft.entity.passive.EntityPig"
+}
+{
+  "Name": "PigZombie",
+  "Registry ID": "minecraft:zombie_pigman",
+  "Class": "net.minecraft.entity.monster.EntityPigZombie"
+}
+{
+  "Name": "PolarBear",
+  "Registry ID": "minecraft:polar_bear",
+  "Class": "net.minecraft.entity.monster.EntityPolarBear"
+}
+{
+  "Name": "Rabbit",
+  "Registry ID": "minecraft:rabbit",
+  "Class": "net.minecraft.entity.passive.EntityRabbit"
+}
+{
+  "Name": "Sheep",
+  "Registry ID": "minecraft:sheep",
+  "Class": "net.minecraft.entity.passive.EntitySheep"
+}
+{
+  "Name": "Shulker",
+  "Registry ID": "minecraft:shulker",
+  "Class": "net.minecraft.entity.monster.EntityShulker"
+}
+{
+  "Name": "Silverfish",
+  "Registry ID": "minecraft:silverfish",
+  "Class": "net.minecraft.entity.monster.EntitySilverfish"
+}
+{
+  "Name": "Skeleton",
+  "Registry ID": "minecraft:skeleton",
+  "Class": "net.minecraft.entity.monster.EntitySkeleton"
+}
+{
+  "Name": "SkeletonHorse",
+  "Registry ID": "minecraft:skeleton_horse",
+  "Class": "net.minecraft.entity.passive.EntitySkeletonHorse"
+}
+{
+  "Name": "Slime",
+  "Registry ID": "minecraft:slime",
+  "Class": "net.minecraft.entity.monster.EntitySlime"
+}
+{
+  "Name": "slimeling",
+  "Registry ID": "galacticraftplanets:slimeling",
+  "Class": "micdoodle8.mods.galacticraft.planets.mars.entities.EntitySlimeling"
+}
+{
+  "Name": "sludgeling",
+  "Registry ID": "galacticraftplanets:sludgeling",
+  "Class": "micdoodle8.mods.galacticraft.planets.mars.entities.EntitySludgeling"
+}
+{
+  "Name": "SnowMan",
+  "Registry ID": "minecraft:snowman",
+  "Class": "net.minecraft.entity.monster.EntitySnowman"
+}
+{
+  "Name": "Spider",
+  "Registry ID": "minecraft:spider",
+  "Class": "net.minecraft.entity.monster.EntitySpider"
+}
+{
+  "Name": "spider_queen",
+  "Registry ID": "galacticraftplanets:spider_queen",
+  "Class": "micdoodle8.mods.galacticraft.planets.venus.entities.EntitySpiderQueen"
+}
+{
+  "Name": "Squid",
+  "Registry ID": "minecraft:squid",
+  "Class": "net.minecraft.entity.passive.EntitySquid"
+}
+{
+  "Name": "Stray",
+  "Registry ID": "minecraft:stray",
+  "Class": "net.minecraft.entity.monster.EntityStray"
+}
+{
+  "Name": "tconstruct.blueslime",
+  "Registry ID": "tconstruct:blueslime",
+  "Class": "slimeknights.tconstruct.world.entity.EntityBlueSlime"
+}
+{
+  "Name": "thermalfoundation.basalz",
+  "Registry ID": "thermalfoundation:basalz",
+  "Class": "cofh.thermalfoundation.entity.monster.EntityBasalz"
+}
+{
+  "Name": "thermalfoundation.blitz",
+  "Registry ID": "thermalfoundation:blitz",
+  "Class": "cofh.thermalfoundation.entity.monster.EntityBlitz"
+}
+{
+  "Name": "thermalfoundation.blizz",
+  "Registry ID": "thermalfoundation:blizz",
+  "Class": "cofh.thermalfoundation.entity.monster.EntityBlizz"
+}
+{
+  "Name": "Vex",
+  "Registry ID": "minecraft:vex",
+  "Class": "net.minecraft.entity.monster.EntityVex"
+}
+{
+  "Name": "Villager",
+  "Registry ID": "minecraft:villager",
+  "Class": "net.minecraft.entity.passive.EntityVillager"
+}
+{
+  "Name": "VillagerGolem",
+  "Registry ID": "minecraft:villager_golem",
+  "Class": "net.minecraft.entity.monster.EntityIronGolem"
+}
+{
+  "Name": "VindicationIllager",
+  "Registry ID": "minecraft:vindication_illager",
+  "Class": "net.minecraft.entity.monster.EntityVindicator"
+}
+{
+  "Name": "wasp",
+  "Registry ID": "biomesoplenty:wasp",
+  "Class": "biomesoplenty.common.entities.EntityWasp"
+}
+{
+  "Name": "Witch",
+  "Registry ID": "minecraft:witch",
+  "Class": "net.minecraft.entity.monster.EntityWitch"
+}
+{
+  "Name": "WitherBoss",
+  "Registry ID": "minecraft:wither",
+  "Class": "net.minecraft.entity.boss.EntityWither"
+}
+{
+  "Name": "WitherSkeleton",
+  "Registry ID": "minecraft:wither_skeleton",
+  "Class": "net.minecraft.entity.monster.EntityWitherSkeleton"
+}
+{
+  "Name": "Wolf",
+  "Registry ID": "minecraft:wolf",
+  "Class": "net.minecraft.entity.passive.EntityWolf"
+}
+{
+  "Name": "Zombie",
+  "Registry ID": "minecraft:zombie",
+  "Class": "net.minecraft.entity.monster.EntityZombie"
+}
+{
+  "Name": "ZombieHorse",
+  "Registry ID": "minecraft:zombie_horse",
+  "Class": "net.minecraft.entity.passive.EntityZombieHorse"
+}
+{
+  "Name": "ZombieVillager",
+  "Registry ID": "minecraft:zombie_villager",
+  "Class": "net.minecraft.entity.monster.EntityZombieVillager"
+}

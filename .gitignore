@@ -3,3 +3,7 @@
 /config/BiomeTweaker/output/
 config/AppliedEnergistics2/items.csv
 config/UniqueNames.txt
+/config/vanillafix/
+config/codechicken/supporters.marker
+config/codechicken/supporters.json
+config/thaumicjei_itemstack_aspects.json

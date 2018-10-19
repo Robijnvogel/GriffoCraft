@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "contenttweaker:items/purified_ore",
+        "layer1": "contenttweaker:items/purified_ore_overlay"
+    }
+}

@@ -1,0 +1,407 @@
+{
+	"dependencies": [ 
+		"ic2",
+		"thermalfoundation",
+		"basemetals",
+		"mekanism"
+	],
+	"populate": {
+		"adamantine": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "basemetals:adamantine_ore"
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 8
+			},
+			"cluster-count":2,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"antimony": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "basemetals:antimony_ore",
+						"weight": 19
+					},
+					{
+						"name": "contenttweaker:sub_block_holder_0",
+						"properties": {
+							"sub_block_number": "15"
+						},
+						"weight": 1
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count":3,
+			"min-height": 32,
+			"max-height": 128,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"bismuth": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "basemetals:bismuth_ore",
+						"weight": 19
+					},
+					{
+						"name": "contenttweaker:sub_block_holder_1",
+						"properties": {
+							"sub_block_number": "0"
+						},
+						"weight": 1
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count":3,
+			"min-height": 32,
+			"max-height": 128,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"boron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "nuclearcraft:ore",
+						"properties": {
+							"type": "boron"
+						},
+						"weight": 19
+					},
+					{
+						"name": "contenttweaker:sub_block_holder_1",
+						"properties": {
+							"sub_block_number": "6"
+						},
+						"weight": 1
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count":6,
+			"min-height": 0,
+			"max-height": 28,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"coldiron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "basemetals:coldiron_ore"
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 8
+			},
+			"cluster-count":5,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"lithium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "nuclearcraft:ore",
+						"properties": {
+							"type": "lithium"
+						},
+						"weight": 19
+					},
+					{
+						"name": "contenttweaker:sub_block_holder_1",
+						"properties": {
+							"sub_block_number": "7"
+						},
+						"weight": 1
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 28,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"magnesium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "nuclearcraft:ore",
+						"properties": {
+							"type": "magnesium"
+						},
+						"weight": 19
+					},
+					{
+						"name": "contenttweaker:sub_block_holder_1",
+						"properties": {
+							"sub_block_number": "8"
+						},
+						"weight": 1
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 4,
+			"min-height": 0,
+			"max-height": 24,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"mercury": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "basemetals:mercury_ore"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count":2,
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"osmium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "mekanism:oreblock",
+						"properties": {
+							"type": "osmium"
+						},
+						"weight": 19
+					},
+					{
+						"name": "contenttweaker:sub_block_holder_0",
+						"properties": {
+							"sub_block_number": "11"
+						},
+						"weight": 1
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 12,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"starsteel_ore": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "basemetals:starsteel_ore"
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 8
+			},
+			"cluster-count":5,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+			}
+		},
+		"thorium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "nuclearcraft:ore",
+						"properties": {
+							"type": "thorium"
+						},
+						"weight": 19
+					},
+					{
+						"name": "contenttweaker:sub_block_holder_1",
+						"properties": {
+							"sub_block_number": "5"
+						},
+						"weight": 1
+					}
+				],
+				"block": {
+					"name": "nuclearcraft:ore",
+					"properties": {
+						"type": "thorium"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 4,
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"uranium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "ic2:resource",
+						"properties": {
+							"type": "uranium_ore"
+						},
+						"weight": 19
+					},
+					{
+						"name": "contenttweaker:sub_block_holder_1",
+						"properties": {
+							"sub_block_number": "4"
+						},
+						"weight": 1
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"zinc": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "basemetals:zinc_ore",
+						"weight": 19
+					},
+					{
+						"name": "contenttweaker:sub_block_holder_1",
+						"properties": {
+							"sub_block_number": "3"
+						},
+						"weight": 1
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count":5,
+			"min-height": 32,
+			"max-height": 128,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

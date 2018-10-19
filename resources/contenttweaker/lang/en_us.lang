@@ -1,0 +1,16 @@
+
+contenttweaker.part.tiny_dust=Tiny Pile of %s Dust
+contenttweaker.part.purified_ore=Purified Crushed %s Ore
+contenttweaker.part.coin=%s Coin
+contenttweaker.part.compressed=Compressed %s
+contenttweaker.part.wire=%s Wire
+
+item.contenttweaker.purple_slime_tiny_ball.name=Tiny Ball of Slime
+item.contenttweaker.stone_tiny_dust.name=Tiny Pile of Stone Dust
+item.contenttweaker.rotten_flesh_nugget.name=Rotten Flesh Nugget
+item.contenttweaker.clay_tiny_ball.name=Tiny Ball of Clay
+item.contenttweaker.prismarine_nugget.name=Prismarine Nugget
+item.contenttweaker.compressed_clay.name=Compressed Clay
+item.contenttweaker.compressed_mercury.name=Compressed Mercury
+
+fluid.osmium=Molten Osmium

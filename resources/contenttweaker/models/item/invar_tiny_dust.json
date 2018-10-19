@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "contenttweaker:items/tiny_dust",
+        "layer1": "contenttweaker:items/tiny_dust_overlay"
+    }
+}

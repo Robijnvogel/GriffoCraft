@@ -1,0 +1,184 @@
+{
+	"populate": {
+
+		"tf_coal": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "coal_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+
+		"tf_iron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "iron_ore",
+						"weight": 19
+					},
+					{
+						"name": "contenttweaker:sub_block_holder_0",
+						"properties": {
+							"sub_block_number": "0"
+						},
+						"weight": 1
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+
+		"tf_gold": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gold_ore",
+						"weight": 19
+					},
+					{
+						"name": "contenttweaker:sub_block_holder_0",
+						"properties": {
+							"sub_block_number": "1"
+						},
+						"weight": 1
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 16,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+
+		"tf_redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "redstone_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 8,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+
+		"tf_diamond": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "diamond_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 8,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+
+		"tf_lapis": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": "lapis_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 1,
+			"center-height": 12,
+			"spread": 12,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+
+		"tf_emerald": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "emerald_ore"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 1,
+				"max": 3
+			},
+			"min-height": 2,
+			"max-height": 16,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"twilightforest:highlands_center",
+							"twilightforest:thornlands"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		}
+	}
+}

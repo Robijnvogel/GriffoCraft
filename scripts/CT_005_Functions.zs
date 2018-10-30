@@ -3,11 +3,15 @@
 #Imports
 	import crafttweaker.item.IItemStack;
 	import crafttweaker.item.IIngredient;
+	import crafttweaker.liquid.ILiquidStack;
 	
 	import mods.immersiveengineering.AlloySmelter;
 	import mods.immersiveengineering.ArcFurnace;
 	import mods.immersiveengineering.Crusher as IECrusher;
 	import mods.mekanism.crusher as MKCrusher;
+	import mods.mekanism.enrichment;
+	import mods.tconstruct.Melting;
+	import mods.thermalexpansion.Crucible as TECrucible;
 	import mods.thermalexpansion.InductionSmelter;
 	import mods.thermalexpansion.Pulverizer;
 	import mods.thermalexpansion.RedstoneFurnace;
@@ -96,18 +100,30 @@
 		IECrusher.addRecipe(output* (normalYield + 1), ore, 100 * energyMultiplier, secOutput, 0.1 * (normalYield as double)); #IE Crusher
 		
 		for inputSpecific in ore.itemArray{
-			MKCrusher.addRecipe(inputSpecific, output * (normalYield + 1)); #MK Crusher
+			enrichment.addRecipe(inputSpecific, output * (normalYield + 1)); #MK Enrichment Chamber (is used for ore crushing instead of Crusher in Mekanism, because Mekanism is weird)
 			Pulverizer.addRecipe(output * (normalYield + 1), inputSpecific, 110 * energyMultiplier, secOutput, 15 * normalYield); #Pulverizer 
 		}
 		#ic2 macerator must be done in config
 	}
 	
 #Ore processing (crushing and smelting)
-	function addOreProcessingRecipes(ore as IIngredient, outputIngot as IItemStack, secOutputIngot as IItemStack, outputDust as IItemStack, secOutputDust as IItemStack, normalYield as int, energyMultiplier as int) {
+	function addOreProcessingRecipes(ore as IIngredient, 
+		outputIngot as IItemStack, 
+		secOutputIngot as IItemStack, 
+		outputDust as IItemStack, 
+		secOutputDust as IItemStack, 
+		normalYield as int, 
+		energyMultiplier as int, 
+		moltenMetal as ILiquidStack,
+		meltingMbBase as int)
+	{
 		addOreSmeltingRecipes(ore, outputIngot, secOutputIngot, normalYield, energyMultiplier);
 		addOreCrushingRecipes(ore, outputDust, secOutputDust, normalYield, energyMultiplier);
 		
-		recipes.addShapeless(outputIngot * (normalYield + 1), [<thermalfoundation:material:1027>, <thermalfoundation:material:1024>, ore]); #Pyrotheum and Petrotheum dust
+		Melting.addRecipe(moltenMetal * (meltingMbBase * (normalYield + 1)), ore);
+		for inputSpecific in ore.itemArray{
+			TECrucible.addRecipe(moltenMetal * (meltingMbBase * (normalYield + 1)), inputSpecific, energyMultiplier * 400);
+		}
 	}
 	
 #Ingots to dusts and vice versa

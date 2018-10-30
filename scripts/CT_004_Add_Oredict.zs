@@ -25,7 +25,19 @@ This scripts adds some items to oredictionaries:
 #GC
 	var ingotLead = oreDict.ingotLead;
 	ingotLead.add(<galacticraftplanets:basic_item_venus:1>);
-
+	
+	var stoneDict = oreDict.materialStoneTool;
+	stoneDict.add(<galacticraftplanets:mars:4>);
+	stoneDict.add(<galacticraftplanets:mars:5>);
+	stoneDict.add(<galacticraftplanets:mars:6>);
+	stoneDict.add(<galacticraftplanets:mars:9>);
+	stoneDict.add(<galacticraftplanets:venus:0>);
+	stoneDict.add(<galacticraftplanets:venus:1>);
+	stoneDict.add(<galacticraftplanets:venus:3>);
+	stoneDict.add(<galacticraftplanets:asteroids_block:0>);
+	stoneDict.add(<galacticraftplanets:asteroids_block:1>);
+	stoneDict.add(<galacticraftplanets:asteroids_block:2>);
+	
 #merging ambiguous oredicts
 	for metalName in metalNames {
 		#tiny dust

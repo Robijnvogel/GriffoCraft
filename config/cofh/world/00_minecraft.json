@@ -18,7 +18,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					7,
+					-28,
+					-29,
+					-30,
+					-31
 				]
 			}
 		},
@@ -39,7 +44,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					7,
+					-28,
+					-29,
+					-30,
+					-31
 				]
 			}
 		},
@@ -60,7 +70,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					7,
+					-28,
+					-29,
+					-30,
+					-31
 				]
 			}
 		},
@@ -93,7 +108,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					7,
+					-28,
+					-29,
+					-30,
+					-31
 				]
 			}
 		},
@@ -126,7 +146,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					7,
+					-28,
+					-29,
+					-30,
+					-31
 				]
 			}
 		},
@@ -147,7 +172,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					7,
+					-28,
+					-29,
+					-30,
+					-31
 				]
 			}
 		},
@@ -168,7 +198,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					7,
+					-28,
+					-29,
+					-30,
+					-31
 				]
 			}
 		},
@@ -189,7 +224,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					7,
+					-28,
+					-29,
+					-30,
+					-31
 				]
 			}
 		},
@@ -238,7 +278,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					7,
+					-28,
+					-29,
+					-30,
+					-31
 				]
 			}
 		},
@@ -278,7 +323,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					7,
+					-28,
+					-29,
+					-30,
+					-31
 				]
 			}
 		},
@@ -318,7 +368,12 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					7,
+					-28,
+					-29,
+					-30,
+					-31
 				]
 			}
 		},
@@ -343,7 +398,12 @@
 					}
 				]
 			},
-			"dimension": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
 		}
 	}
 }

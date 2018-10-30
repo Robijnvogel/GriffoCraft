@@ -92,10 +92,17 @@ for i, metalName in metalNames {
 		}
 		
 	#Recipe creation
-		addStorageRecipeBothWays(dictIngot, outputIngots[i], dictNugget, outputNuggets[i]);
-		addStorageRecipeBothWays(dictBlock, outputBlocks[i], dictIngot, outputIngots[i]);
-		addIngotDustRecipes(dictNugget, outputNuggets[i], dictDustTiny, outputTinyDusts[i]);
-		#todo add missing recipes?
+		#Ingot <-> Nuggets
+			addStorageRecipeBothWays(dictIngot, outputIngots[i], dictNugget, outputNuggets[i]);
+		#Block <-> Ingots
+			addStorageRecipeBothWays(dictBlock, outputBlocks[i], dictIngot, outputIngots[i]);
+		#Dust <-> Tiny dusts
+			addStorageRecipeBothWays(dictDust, outputDusts[i], dictDustTiny, outputTinyDusts[i]);
+		#Ingot <-> Dust
+			#addIngotDustRecipes(dictIngot, dictDust) would also add hammer recipes from ingot -> dust, but we want those to result in plates
+		#Nugget <-> Tiny dust
+			addIngotDustRecipes(dictNugget, outputNuggets[i], dictDustTiny, outputTinyDusts[i]);
+			
 		#Nuggets ->
 			recipes.addShapeless(outputTinyDusts[i] * 8, [<thermalfoundation:material:1027>, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget]); #Petrotheum dust
 			recipes.addShapeless(outputTinyDusts[i] * 8, [<immersiveengineering:tool:0>, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget]); #IE Engineers Hammer

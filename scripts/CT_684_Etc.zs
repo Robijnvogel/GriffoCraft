@@ -21,6 +21,11 @@
 	var tinyObsidian = <ic2:dust:25>; #todo make this oredict
 	var tinySulfur = <ic2:dust:27>;
 
+#Oredict
+	var oreObsRod = <ore:rodObsidian>;
+	var obsToolRod = <tconstruct:tool_rod>.withTag({Material: "obsidian"});
+	oreObsRod.add(obsToolRod);
+	
 #Recipe removal
 	#Dusts
 		for dust in otherDusts {
@@ -60,6 +65,13 @@
 			
 	#TiC Smeltery Fuel
 		Fuel.registerFuel(<liquid:pyrotheum> * 2, 300);
+		
+	#MoC Silver Sword
+		recipes.addShaped("MoCSilverSword", <mocreatures:silversword>.withDamage(-50), [
+			[<tconstruct:large_sword_blade>.withTag({Material: "silver"})],
+			[<tconstruct:cross_guard>.withTag({Material: "silver"})],
+			[oreObsRod]
+		]);
 		
 	#Test
 		addNormalSmeltingRecipes(<ore:dustDiamond>, <minecraft:diamond>);

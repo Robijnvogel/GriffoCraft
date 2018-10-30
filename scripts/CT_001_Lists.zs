@@ -461,6 +461,8 @@
 			#Vanilla
 				#Nether Brick
 				#Brick
+			#Botania
+			#Other mods
 				
 	#Metal Names
 		static metalNames as string[] = [

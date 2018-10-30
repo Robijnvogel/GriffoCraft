@@ -1,0 +1,48 @@
+{
+	"populate": {
+		"naquadah_mars": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "sgcraft:naquadahore",
+				"material": {
+					"name": "galacticraftplanets:mars",
+					"metadata": 9
+				},
+				"cluster-size": 3
+			},
+			"cluster-count": 3,
+			"min-height": 5,
+			"max-height": 64,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29
+				]
+			}
+		},
+		"naquadah_venus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "sgcraft:naquadahore",
+				"material": {
+					"name": "galacticraftplanets:venus",
+					"metadata": 1
+				},
+				"cluster-size": 5
+			},
+			"cluster-count": 8,
+			"min-height": 5,
+			"max-height": 128,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+			}
+		}
+	}
+}

@@ -1,4 +1,4 @@
-#priority 995
+#priority 994
 
 #Imports
 	import crafttweaker.item.IItemStack;

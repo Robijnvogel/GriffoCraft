@@ -1,4 +1,4 @@
-#priority 996
+#priority 995
 #modloaded basemetals enderio ic2 galacticraftplanets mekanism nuclearcraft tconstruct thermalfoundation
 
 /*
@@ -9,8 +9,7 @@ This scripts adds some items to oredictionaries:
 */
 
 #Imports
-	import scripts.CT_001_Lists.metalNames;
-	import scripts.CT_001_Lists.partNames;
+	import scripts.CT_002_Lists as L;
 
 #EnderIO and TC
 	var dustCopper = oreDict.dustCopper;
@@ -39,7 +38,7 @@ This scripts adds some items to oredictionaries:
 	stoneDict.add(<galacticraftplanets:asteroids_block:2>);
 	
 #merging ambiguous oredicts
-	for metalName in metalNames {
+	for metalName in L.metalNames {
 		#tiny dust
 			var dustTiny = oreDict.get("dustTiny" + metalName);
 			dustTiny.addAll(oreDict.get("dustSmall" + metalName));
@@ -61,13 +60,13 @@ This scripts adds some items to oredictionaries:
 	}
 	
 #<part>Aluminum into <part>Aluminium
-	for partName in partNames {
+	for partName in L.partNames {
 		var aluminiumPart = oreDict.get(partName + "Aluminium");
 		aluminiumPart.addAll(oreDict.get(partName + "Aluminum"));
 	}
 	
 #anyX		
-	for metalName in metalNames {
+	for metalName in L.metalNames {
 		#only use these dictionaries for alloying recipes
 		var anyDusts = oreDict.get("anyDust" + metalName);
 		anyDusts.addAll(oreDict.get("dust" + metalName));

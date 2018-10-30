@@ -1,4 +1,4 @@
-#priority 997
+#priority 996
 
 #Imports
 	import mod.mekanism.gas.IGasStack;

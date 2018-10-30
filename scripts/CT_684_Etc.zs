@@ -10,12 +10,8 @@
 	import mods.tconstruct.Fuel;
 	import mods.thermalexpansion.Pulverizer;
 	
-	import scripts.CT_001_Lists.otherDusts;
-	import scripts.CT_001_Lists.crushInputIngots;
-	import scripts.CT_001_Lists.crushOutputDusts;
-	
-	import scripts.CT_005_Functions.addNormalSmeltingRecipes;
-	import scripts.CT_005_Functions.addIngotDustRecipesSimple;
+	import scripts.CT_002_Lists as L;	
+	import scripts.CT_006_Functions as F;
 
 #Items
 	var tinyObsidian = <ic2:dust:25>; #todo make this oredict
@@ -28,7 +24,7 @@
 	
 #Recipe removal
 	#Dusts
-		for dust in otherDusts {
+		for dust in L.otherDusts {
 			recipes.remove(dust); #dust alloying, hammering and tiny-combining
 			Crusher.removeRecipe(dust); #IE crusher
 		}
@@ -59,8 +55,8 @@
 		#lapis
 			Pulverizer.addRecipe(<enderio:item_material:32>, <minecraft:dye:4>, 2000); //lapis lazuli
 		#other metal dusts
-			for i, input in crushInputIngots {			
-				Crusher.addRecipe(crushOutputDusts[i], input, 1000); #IE Crusher
+			for i, input in L.crushInputIngots {			
+				Crusher.addRecipe(L.crushOutputDusts[i], input, 1000); #IE Crusher
 			}
 			
 	#TiC Smeltery Fuel
@@ -74,5 +70,5 @@
 		]);
 		
 	#Test
-		addNormalSmeltingRecipes(<ore:dustDiamond>, <minecraft:diamond>);
-		addIngotDustRecipesSimple(<basemetals:redstone_ingot>, <minecraft:redstone>);
+		F.addNormalSmeltingRecipes(<ore:dustDiamond>, <minecraft:diamond>);
+		F.addIngotDustRecipesSimple(<basemetals:redstone_ingot>, <minecraft:redstone>);

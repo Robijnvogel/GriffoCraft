@@ -17,6 +17,8 @@ var chestNames = [
 	"minecraft:chests/village_blacksmith"
 ] as string[];
 
+#todo make this have to do with iterating through lists as well
+
 for chestName in chestNames {
 	var chest = LootTables.getTable(chestName);
 	var ic2Pool = chest.getPool("ic2");

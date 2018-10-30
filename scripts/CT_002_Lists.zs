@@ -1,4 +1,4 @@
-#priority 999
+#priority 998
 #modloaded basemetals ic2 mekanism nuclearcraft tconstruct thermalfoundation
 
 #This script contains a lot of lists of materials that are used in the other scripts

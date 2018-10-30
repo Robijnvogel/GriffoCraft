@@ -16,25 +16,11 @@
 	import mods.thermalexpansion.Pulverizer;
 	import mods.thermalexpansion.RedstoneFurnace;
 	
-	import scripts.CT_001_Lists.metalNames;
-	import scripts.CT_001_Lists.outputNuggets;
-	import scripts.CT_001_Lists.outputIngots;
-	import scripts.CT_001_Lists.outputBlocks;
-	import scripts.CT_001_Lists.outputTinyDusts;
-	import scripts.CT_001_Lists.outputDusts;
-	
-	import scripts.CT_001_Lists.moltenMetals;
-	
-	import scripts.CT_001_Lists.outputPlates;
-	import scripts.CT_001_Lists.outputGears;
-	
-	import scripts.CT_005_Functions.addIngotDustRecipes;
-	import scripts.CT_005_Functions.addNormalCrushingRecipes;
-	import scripts.CT_005_Functions.addNormalSmeltingRecipes;
-	import scripts.CT_005_Functions.addStorageRecipeBothWays;
+	import scripts.CT_002_Lists as L;	
+	import scripts.CT_006_Functions as F;
 	
 #All metals
-for i, metalName in metalNames {
+for i, metalName in L.metalNames {
 
 	#Ore dictionary entries
 		var dictNugget = oreDict.get("nugget" + metalName);
@@ -93,66 +79,66 @@ for i, metalName in metalNames {
 		
 	#Recipe creation
 		#Ingot <-> Nuggets
-			addStorageRecipeBothWays(dictIngot, outputIngots[i], dictNugget, outputNuggets[i]);
+			F.addStorageRecipeBothWays(dictIngot, L.outputIngots[i], dictNugget, L.outputNuggets[i]);
 		#Block <-> Ingots
-			addStorageRecipeBothWays(dictBlock, outputBlocks[i], dictIngot, outputIngots[i]);
+			F.addStorageRecipeBothWays(dictBlock, L.outputBlocks[i], dictIngot, L.outputIngots[i]);
 		#Dust <-> Tiny dusts
-			addStorageRecipeBothWays(dictDust, outputDusts[i], dictDustTiny, outputTinyDusts[i]);
+			F.addStorageRecipeBothWays(dictDust, L.outputDusts[i], dictDustTiny, L.outputTinyDusts[i]);
 		#Ingot <-> Dust
 			#addIngotDustRecipes(dictIngot, dictDust) would also add hammer recipes from ingot -> dust, but we want those to result in plates
 		#Nugget <-> Tiny dust
-			addIngotDustRecipes(dictNugget, outputNuggets[i], dictDustTiny, outputTinyDusts[i]);
+			F.addIngotDustRecipes(dictNugget, L.outputNuggets[i], dictDustTiny, L.outputTinyDusts[i]);
 			
 		#Nuggets ->
-			recipes.addShapeless(outputTinyDusts[i] * 8, [<thermalfoundation:material:1027>, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget]); #Petrotheum dust
-			recipes.addShapeless(outputTinyDusts[i] * 8, [<immersiveengineering:tool:0>, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget]); #IE Engineers Hammer
-			recipes.addShapeless(outputTinyDusts[i] * 8, [<ic2:forge_hammer>.anyDamage().transformDamage(), dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget]); #ic2 Forge Hammer
+			recipes.addShapeless(L.outputTinyDusts[i] * 8, [<thermalfoundation:material:1027>, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget]); #Petrotheum dust
+			recipes.addShapeless(L.outputTinyDusts[i] * 8, [<immersiveengineering:tool:0>, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget]); #IE Engineers Hammer
+			recipes.addShapeless(L.outputTinyDusts[i] * 8, [<ic2:forge_hammer>.anyDamage().transformDamage(), dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget, dictNugget]); #ic2 Forge Hammer
 			
 		#Ingots ->
 			#Dusts #addNormalCrushingRecipes() would also add hammer recipes from ingot -> dust, but we want those to result in plates
-				recipes.addShapeless(outputDusts[i], [<thermalfoundation:material:1027>, dictIngot]); #Petrotheum dust
-				IECrusher.addRecipe(outputDusts[i], dictIngot, 1000); #IE Crusher
+				recipes.addShapeless(L.outputDusts[i], [<thermalfoundation:material:1027>, dictIngot]); #Petrotheum dust
+				IECrusher.addRecipe(L.outputDusts[i], dictIngot, 1000); #IE Crusher
 				for inputSpecific in dictIngot.itemArray{
-					MKCrusher.addRecipe(inputSpecific, outputDusts[i]); #MK Crusher
-					Pulverizer.addRecipe(outputDusts[i], inputSpecific, 1100); #Pulverizer 
+					MKCrusher.addRecipe(inputSpecific, L.outputDusts[i]); #MK Crusher
+					Pulverizer.addRecipe(L.outputDusts[i], inputSpecific, 1100); #Pulverizer 
 				}
 				#ic2 macerator must be done in config
 				
 			#Plates
-				recipes.addShapeless(outputPlates[i], [<immersiveengineering:tool:0>, dictIngot]); #IE Engineers Hammer
-				recipes.addShapeless(outputPlates[i], [<ic2:forge_hammer>.anyDamage().transformDamage(), dictIngot]); #ic2 Forge Hammer
-				MetalPress.addRecipe(outputPlates[i], dictIngot, <immersiveengineering:mold>, 2400);
-				Compactor.addPressRecipe(outputPlates[i], dictIngot.firstItem, 4000);
+				recipes.addShapeless(L.outputPlates[i], [<immersiveengineering:tool:0>, dictIngot]); #IE Engineers Hammer
+				recipes.addShapeless(L.outputPlates[i], [<ic2:forge_hammer>.anyDamage().transformDamage(), dictIngot]); #ic2 Forge Hammer
+				MetalPress.addRecipe(L.outputPlates[i], dictIngot, <immersiveengineering:mold>, 2400);
+				Compactor.addPressRecipe(L.outputPlates[i], dictIngot.firstItem, 4000);
 				
 			#Gears
-				recipes.addShaped(outputGears[i], [
+				recipes.addShaped(L.outputGears[i], [
 					[null, dictIngot, null],
 					[dictIngot, <ore:ingotIron>, dictIngot],
 					[null, dictIngot, null] ]);
-				recipes.addShaped(outputGears[i], [
+				recipes.addShaped(L.outputGears[i], [
 					[null, dictIngot, null],
 					[dictIngot, <ore:gearStone>, dictIngot],
 					[null, dictIngot, null] ]);
-				Compactor.addGearRecipe(outputGears[i], dictIngot.firstItem * 4, 4000);
+				Compactor.addGearRecipe(L.outputGears[i], dictIngot.firstItem * 4, 4000);
 				
 		#AnyDusts ->
-			addNormalSmeltingRecipes(dictAnyDust, outputIngots[i]); #Crushing recipes would also add hammer recipes from ingot -> dust, but we want those to result in plates
+			F.addNormalSmeltingRecipes(dictAnyDust, L.outputIngots[i]); #Crushing recipes would also add hammer recipes from ingot -> dust, but we want those to result in plates
 			
 		#Plates ->
-			recipes.addShapeless(outputDusts[i], [<thermalfoundation:material:1027>, dictPlate]); #Petrotheum dust
-			IECrusher.addRecipe(outputDusts[i], dictPlate, 2500); #IE Crusher
+			recipes.addShapeless(L.outputDusts[i], [<thermalfoundation:material:1027>, dictPlate]); #Petrotheum dust
+			IECrusher.addRecipe(L.outputDusts[i], dictPlate, 2500); #IE Crusher
 			#ic2 macerator must be done in config
 			
 		#Gears ->
-			addIngotDustRecipes(dictGear, outputIngots[i] * 2, dictGear, outputDusts[i] * 3); #Recycling of Gears by smelting as well as crushing
+			F.addIngotDustRecipes(dictGear, L.outputIngots[i] * 2, dictGear, L.outputDusts[i] * 3); #Recycling of Gears by smelting as well as crushing
 		
 		#Liquid / Molten Metal ->
-			Casting.addTableRecipe(outputNuggets[i], <tconstruct:cast_custom:1>, moltenMetals[i], 16);
-			Casting.addTableRecipe(outputIngots[i], <tconstruct:cast_custom>, moltenMetals[i], 144);
-			Casting.addBasinRecipe(outputBlocks[i], null, moltenMetals[i], 1296);
+			Casting.addTableRecipe(L.outputNuggets[i], <tconstruct:cast_custom:1>, L.moltenMetals[i], 16);
+			Casting.addTableRecipe(L.outputIngots[i], <tconstruct:cast_custom>, L.moltenMetals[i], 144);
+			Casting.addBasinRecipe(L.outputBlocks[i], null, L.moltenMetals[i], 1296);
 			
-			Casting.addTableRecipe(outputPlates[i], <tconstruct:cast_custom:3>, moltenMetals[i], 144);
-			Casting.addTableRecipe(outputGears[i], <tconstruct:cast_custom:4>, moltenMetals[i], 576);
+			Casting.addTableRecipe(L.outputPlates[i], <tconstruct:cast_custom:3>, L.moltenMetals[i], 144);
+			Casting.addTableRecipe(L.outputGears[i], <tconstruct:cast_custom:4>, L.moltenMetals[i], 576);
 		
 }
 #Exceptions

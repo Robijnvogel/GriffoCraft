@@ -6,6 +6,7 @@
 	import crafttweaker.liquid.ILiquidStack;
 	import crafttweaker.oredict.IOreDict;
 	import crafttweaker.oredict.IOreDictEntry;
+	import mods.immersiveengineering.Blueprint;
 	import mods.immersiveengineering.Crusher;
 	import mods.tconstruct.Fuel;
 	import mods.thermalexpansion.Pulverizer;
@@ -68,6 +69,9 @@
 			[<tconstruct:cross_guard>.withTag({Material: "silver"})],
 			[oreObsRod]
 		]);
+		
+	#IE Gun Barrel
+		Blueprint.addRecipe("components", <immersiveengineering:material:14>, [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]);
 		
 	#Test
 		F.addNormalSmeltingRecipes(<ore:dustDiamond>, <minecraft:diamond>);

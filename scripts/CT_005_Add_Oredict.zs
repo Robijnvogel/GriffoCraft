@@ -14,9 +14,12 @@ This scripts adds some items to oredictionaries:
 #EnderIO and TC
 	var dustCopper = oreDict.dustCopper;
 	dustCopper.add(<enderio:item_material:26>);
-
 	var dustTin = oreDict.dustTin;
 	dustTin.add(<enderio:item_material:27>);
+	var dustCobalt = oreDict.dustCobalt;
+	dustCobalt.add(<enderio:item_material:31>);
+	var dustArdite = oreDict.dustArdite;
+	dustArdite.add(<enderio:item_material:30>);
 	
 	var plateBrass = oreDict.plateBrass;
 	plateBrass.add(<thaumcraft:plate:0>);

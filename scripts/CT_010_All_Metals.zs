@@ -143,6 +143,7 @@ for i, metalName in L.metalNames {
 }
 #Exceptions
 	#Recipe removal
+		recipes.removeShaped(<basemetals:steel_plate>); #Steel
 		recipes.removeShaped(<thaumcraft:plate:2>); #Thaumium
 		recipes.removeShaped(<thaumcraft:plate:3>); #Void Metal
 	

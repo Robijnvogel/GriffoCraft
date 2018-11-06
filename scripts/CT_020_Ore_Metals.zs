@@ -45,7 +45,8 @@ for i, outputOre in L.outputOres {
 
 	#Recipe removal
 		for ore in dictOre.itemArray{
-			combiner.removeRecipe(ore);
+			combiner.removeRecipe(ore); #removal by output
+			Pulverizer.removeRecipe(ore); #removal by input (if not explicitly removed, ores will yield IC2 dusts.)
 		}
 
 	#Recipe creation
